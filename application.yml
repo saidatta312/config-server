@@ -1,3 +1,16 @@
+
+microservice:
+  payment-methods:
+    endpoints:
+      add-bank:
+        uri: ""
+  payments:
+    endpoints:
+      make-payemt:
+        uri: ""
+
+
+
 eureka:
   client:
    #register-with-eureka: true
